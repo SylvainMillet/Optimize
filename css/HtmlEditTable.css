@@ -1,0 +1,54 @@
+.HtmlEditTable
+{
+	table-layout:fixed; /* colonnes de tailles égales */
+	background-color:#AAA; /* couleur de fond = blanc */
+	border-right:1px solid #999; /* bordure droite de la table */
+	border-bottom:1px solid #999; /* bordure droite de la table */
+	width:55em; /* largeur en unité relative */
+}
+
+.HtmlEditTable tbody td
+{
+  font-family: Courier; /* police */
+	border-left:1px solid #999; /* bordure gauche */
+	border-top:1px solid #999; /* bordure supérieure */
+  padding-right:2px;	
+	overflow:hidden; /* pour IE */
+	text-overflow:ellipsis; /* pour IE */
+	vertical-align: middle; /* alignement vertical */
+	white-space:nowrap; /* interdiction d’aller à la ligne */
+	text-align:right; /* alignement horizontal */
+	font-size: 0.7em; /* taille de police relative */
+	background-color: RGB(251,250,231); /* couleur de fond */
+}
+
+.HtmlEditTable thead td
+{	
+  font-family: Verdana; /* police */
+	background-image : url(tab-header.gif);
+	height:23px;
+	color:#FFFFFF;
+	font-weight: bold; /* fonte grasse du texte */
+	text-align:center; /* alignement horizontal */
+	font-size: 0.7em; /* taille de police relative */
+}
+
+.HtmlEditTable caption
+{
+	text-align: left; /* alignement horizontal */
+	text-decoration: underline; /* soulignement */
+	font-weight: bold; /* fonte grasse */
+	font-size: 0.8em; /* taille de police relative */
+}
+
+.HtmlEdit
+{
+	border: 0px;
+	font-size: 1em;
+	font-family: Courier;
+	padding: 0px;
+	text-align:right;
+	margin:0px;
+	line-height:1em;
+	background-color:#F0F0F0;
+}
